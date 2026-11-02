@@ -1,7 +1,7 @@
 # Discovify Studio
 
-An English-language music discovery application. Existing recommendations use liked-song genres; LLM recommendations are planned and are not implemented.
+A Vue3 administration studio for managing songs, artists, albums, playlists and user content.
 
-See the root README for local setup, migration and verification. User-supplied catalog names, lyrics and comments retain their original language.
+See the [root README](../README.md) for local setup. User-supplied catalog names, lyrics and comments retain their original language.
 
 See THIRD_PARTY_NOTICES.md for upstream attribution and licensing.

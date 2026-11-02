@@ -20,3 +20,13 @@ def test_provider_selection_and_missing_key(monkeypatch):
     assert gateway.model=='gpt-5.4-mini'
     monkeypatch.setenv('MODEL_PROVIDER','deepseek')
     assert model_config()['key']=='legacy-deepseek-test'
+
+
+def test_openai_is_default_without_reusing_legacy_key(monkeypatch):
+    monkeypatch.delenv('MODEL_PROVIDER', raising=False)
+    monkeypatch.delenv('OPENAI_API_KEY', raising=False)
+    monkeypatch.setenv('MODEL_API_KEY', 'legacy-deepseek-test')
+    config = model_config()
+    assert config['provider'] == 'openai'
+    assert config['key'] == ''
+    assert config['base'] == 'https://api.openai.com/v1'

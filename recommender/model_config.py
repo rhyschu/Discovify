@@ -3,7 +3,7 @@ import os
 
 
 def model_config():
-    provider=os.getenv('MODEL_PROVIDER','deepseek').strip().lower()
+    provider=os.getenv('MODEL_PROVIDER','openai').strip().lower()
     if provider=='openai':
         return {'provider':provider,'key':os.getenv('OPENAI_API_KEY',''),
                 'base':os.getenv('OPENAI_BASE_URL','https://api.openai.com/v1').rstrip('/'),

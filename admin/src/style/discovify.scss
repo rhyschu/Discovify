@@ -1,0 +1,18 @@
+
+:root { --el-color-primary:#3b7256;--el-border-radius-base:8px;--el-font-family:Inter,"Segoe UI",Arial,sans-serif; }
+body {font-family:Inter,"Segoe UI",Arial,sans-serif!important;background:#f5f6f0;}
+.main-container {background:#f5f6f0;}.dark .main-container {background:#18221d;}
+.el-card {border-radius:16px!important;border:1px solid #e1e7dc!important;box-shadow:none!important;}
+.search-form {border-radius:14px;margin-bottom:18px;padding:20px!important;border:1px solid #e1e7dc;}
+.el-table {border-radius:12px;}.el-table th.el-table__cell {font-size:12px;letter-spacing:.3px;}.el-table .el-table__cell{padding-block:12px;}
+.el-dialog {border-radius:18px!important;}.el-dialog__header {padding:22px 24px 12px;}.el-dialog__body {padding:12px 24px 24px;}
+.sidebar-container,.sidebar-container .el-menu {background:#172720!important;}.sidebar-container .el-menu-item,.sidebar-container .el-sub-menu__title {color:#d5dfd7!important;}.sidebar-container .el-menu-item.is-active{background:#d6f56e!important;color:#172720!important;border-radius:8px;}.sidebar-container .sidebar-logo-container{background:#172720!important;}.sidebar-title{color:#eef4e7!important;}
+.el-button--primary {background:#3b7256!important;border-color:#3b7256!important;color:#fff!important;}.el-input__wrapper,.el-select__wrapper{border-radius:8px!important;}.el-form-item__label{white-space:nowrap;}
+.layout-footer {font-size:11px!important;letter-spacing:1px;text-transform:uppercase;padding:18px!important;}
+.login-container {background:#eef2e6!important;} .login-box {border-radius:24px;}
+
+.studio-heading{padding:12px 0 26px}.studio-heading p{font-size:10px;letter-spacing:2px;color:#6b806e}.studio-heading h1{font-size:30px;font-weight:700;letter-spacing:-1px;margin:6px 0}.studio-heading span{font-size:13px;color:#728075}
+
+body #app .sidebar-container,body #app .sidebar-container .el-scrollbar,body #app .sidebar-container .el-scrollbar__view,body #app .sidebar-container .el-menu{background:#172720!important;}
+body #app .sidebar-container .el-menu-item{color:#d5dfd7!important;}body #app .sidebar-container .el-menu-item.is-active{background:#d6f56e!important;color:#172720!important;}
+body #app .main-container{background:#f5f6f0;}html.dark body #app .main-container{background:#18221d;}

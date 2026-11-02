@@ -1,0 +1,10 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+langgraph>=1,<2
+httpx>=0.28,<1
+scikit-learn>=1.5,<2
+python-dotenv>=1,<2
+pytest>=8,<10
+pytest-asyncio>=0.24,<2
+PyYAML>=6,<7
+PyMySQL>=1,<2

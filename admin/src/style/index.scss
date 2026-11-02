@@ -1,0 +1,31 @@
+@use "theme";
+@use "transition";
+@use "element-plus";
+@use "sidebar";
+@use "dark";
+
+:root {
+  
+  --pure-transition-duration: 0.3s;
+
+  --pure-border-color: rgb(5 5 5 / 6%);
+
+  --pure-switch-off-color: #a6a6a6;
+
+  --pure-theme-sub-menu-active-text: initial;
+  --pure-theme-menu-bg: none;
+  --pure-theme-menu-hover: none;
+  --pure-theme-sub-menu-bg: transparent;
+  --pure-theme-menu-text: initial;
+  --pure-theme-sidebar-logo: none;
+  --pure-theme-menu-title-hover: initial;
+  --pure-theme-menu-active-before: transparent;
+}
+
+.html-grey {
+  filter: grayscale(100%);
+}
+
+.html-weakness {
+  filter: invert(80%);
+}

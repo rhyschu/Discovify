@@ -1,0 +1,142 @@
+{
+  "status": "complete",
+  "timestamp_utc": "2026-09-23T20:30:21.788317+00:00",
+  "run_id": "8d9d11b07f",
+  "protocol": "10 fresh AI-intent requests, each followed by 3 identical requests if agent mode succeeded; persistent local HTTP connection; default-content warmup; no cache deletion; no parallel load. Paired aggregate uses median of three hits per query. Includes HTTP, Java, MySQL, Redis and uncached Python/model time. Unique references are part of the recorded query.",
+  "scope": "Local repeated-request cache benefit, not global site latency, production traffic, model speedup or measured database-load reduction.",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.14",
+  "service_sha256": "f5d7dc5cc163371ccf7ba5b40e10ca9fcea1ddd956989165668ded7d515c42d7",
+  "attempted_queries": 10,
+  "paired_queries": 10,
+  "fallback_queries": 0,
+  "hit_requests": 30,
+  "miss_median_ms": 3989.2685,
+  "paired_hit_median_ms": 10.301,
+  "median_latency_reduction_percent": 99.74178223401107,
+  "miss_p95_ms": 4490.693,
+  "paired_hit_p95_ms": 12.901,
+  "all_paired_outputs_identical": true,
+  "rows": [
+    {
+      "case": 1,
+      "intent": "Find Taylor Swift songs, with some variety. Request reference: 8d9d11b07f-0.",
+      "miss_ms": 3955.465,
+      "mode": "agent",
+      "hits_ms": [
+        11.334,
+        11.29,
+        10.472
+      ],
+      "same_output": true
+    },
+    {
+      "case": 2,
+      "intent": "Recommend Rock songs from different artists. Request reference: 8d9d11b07f-1.",
+      "miss_ms": 4158.315,
+      "mode": "agent",
+      "hits_ms": [
+        11.17,
+        11.655,
+        11.024
+      ],
+      "same_output": true
+    },
+    {
+      "case": 3,
+      "intent": "Find Pop songs from different artists. Request reference: 8d9d11b07f-2.",
+      "miss_ms": 4337.013,
+      "mode": "agent",
+      "hits_ms": [
+        11.762,
+        15.652,
+        11.574
+      ],
+      "same_output": true
+    },
+    {
+      "case": 4,
+      "intent": "Recommend songs by Coldplay and related catalog artists. Request reference: 8d9d11b07f-3.",
+      "miss_ms": 4490.693,
+      "mode": "agent",
+      "hits_ms": [
+        10.525,
+        12.901,
+        15.034
+      ],
+      "same_output": true
+    },
+    {
+      "case": 5,
+      "intent": "Find Electronic songs, with some variety. Request reference: 8d9d11b07f-4.",
+      "miss_ms": 4214.33,
+      "mode": "agent",
+      "hits_ms": [
+        9.916,
+        9.793,
+        9.373
+      ],
+      "same_output": true
+    },
+    {
+      "case": 6,
+      "intent": "Find Taylor Swift songs, with some variety. Request reference: 8d9d11b07f-5.",
+      "miss_ms": 3462.682,
+      "mode": "agent",
+      "hits_ms": [
+        10.869,
+        10.13,
+        9.249
+      ],
+      "same_output": true
+    },
+    {
+      "case": 7,
+      "intent": "Recommend Rock songs from different artists. Request reference: 8d9d11b07f-6.",
+      "miss_ms": 3594.456,
+      "mode": "agent",
+      "hits_ms": [
+        9.07,
+        9.887,
+        12.03
+      ],
+      "same_output": true
+    },
+    {
+      "case": 8,
+      "intent": "Find Pop songs from different artists. Request reference: 8d9d11b07f-7.",
+      "miss_ms": 3768.252,
+      "mode": "agent",
+      "hits_ms": [
+        10.472,
+        10.555,
+        9.831
+      ],
+      "same_output": true
+    },
+    {
+      "case": 9,
+      "intent": "Recommend songs by Coldplay and related catalog artists. Request reference: 8d9d11b07f-8.",
+      "miss_ms": 3862.086,
+      "mode": "agent",
+      "hits_ms": [
+        9.303,
+        9.5,
+        9.362
+      ],
+      "same_output": true
+    },
+    {
+      "case": 10,
+      "intent": "Find Electronic songs, with some variety. Request reference: 8d9d11b07f-9.",
+      "miss_ms": 4023.072,
+      "mode": "agent",
+      "hits_ms": [
+        9.798,
+        9.333,
+        9.255
+      ],
+      "same_output": true
+    }
+  ]
+}

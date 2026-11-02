@@ -1,0 +1,62 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: discovify-server
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DATABASE_URL:jdbc:mysql://localhost:3306/discovify?useUnicode=true&characterEncoding=utf-8}
+    username: ${DATABASE_USER:discovify_app}
+    password: ${DATABASE_PASSWORD:}
+    type: com.alibaba.druid.pool.DruidDataSource
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      database: 1
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: 587
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  cache:
+    redis:
+      time-to-live: 600000
+mybatis-plus:
+  type-aliases-package: com.discovify.model
+  mapper-locations: classpath*:/mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      table-prefix: tb_
+minio:
+  endpoint: ${OBJECT_STORAGE_ENDPOINT:http://localhost:9000}
+  accessKey: ${OBJECT_STORAGE_ACCESS_KEY:}
+  secretKey: ${OBJECT_STORAGE_SECRET_KEY:}
+  bucket: discovify-data
+role-path-permissions:
+  permissions:
+    ROLE_ADMIN:
+    - /admin/
+    ROLE_USER:
+    - /user/
+    - /playlist/
+    - /artist/
+    - /song/
+    - /favorite/
+    - /comment/
+    - /banner/
+    - /feedback/

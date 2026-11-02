@@ -1,0 +1,84 @@
+{
+  "scope": "Real localhost Java/Python/DeepSeek/MySQL/Redis HTTP chain; anonymous intent queries; not browser or load testing.",
+  "cases": [
+    {
+      "intent": "",
+      "mode": "content",
+      "cached": true,
+      "elapsed_ms": 24.29,
+      "song_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "intent": "Find Taylor Swift songs, with some variety.",
+      "mode": "agent",
+      "cached": true,
+      "elapsed_ms": 16.52,
+      "song_ids": [
+        343,
+        338,
+        321,
+        315,
+        317,
+        330,
+        336,
+        342,
+        333,
+        337
+      ]
+    },
+    {
+      "intent": "Recommend Rock songs from different artists.",
+      "mode": "agent",
+      "cached": true,
+      "elapsed_ms": 20.51,
+      "song_ids": [
+        173,
+        171,
+        279,
+        288,
+        282,
+        285,
+        239,
+        236,
+        263,
+        352
+      ]
+    },
+    {
+      "intent": "Find tracks from the album 1989.",
+      "mode": "fallback",
+      "cached": false,
+      "elapsed_ms": 6727.03,
+      "song_ids": [
+        273,
+        283,
+        335,
+        58,
+        90,
+        464,
+        220,
+        173,
+        42,
+        195
+      ]
+    }
+  ],
+  "cache_requests": 20,
+  "cache_p50_ms": 11.76074999989396,
+  "cache_p95_ms": 13.167999999950553,
+  "media_head_status": 200,
+  "invalid_intent_rejected": true,
+  "invalid_token_rejected": true,
+  "anonymous_history_write_rejected": true
+}

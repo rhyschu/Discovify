@@ -1,0 +1,288 @@
+{
+  "timestamp": "2026-09-23T20:46:37.666498+00:00",
+  "version": "discover-v1",
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "catalog_size": 499,
+  "catalog_sha256": "06591161adaf78cba93927a79d7e55d35511eb638ebf954552875d953592c2a3",
+  "cases": 13,
+  "protocol": "Seeded 60/40 playlist completion; >=6 unique playable tracks; binary held-out relevance; legacy-style latest-80 genre baseline averaged over 20 seeded shuffles, ID tie-break; fixed retrieval weights; development benchmark, not production testing, user preference labels or online uplift. Live runs force profile reranking for comparison; deployed default uses content ranking unless an intent is supplied.",
+  "legacy": {
+    "ndcg10": 0.11779531663108192,
+    "recall10": 0.06266623162966237
+  },
+  "content": {
+    "ndcg10": 0.9013800374088008,
+    "recall10": 0.6302462027466428
+  },
+  "artist_only": {
+    "ndcg10": 0.5600937061698925,
+    "recall10": 0.2988698349770344
+  },
+  "source_sha256": "10b355795c6aaa48d5ff3a02bc0e7ba513758d37578747f9e942fbac5a9f111b",
+  "content_ms_p50": 2.189400000133901,
+  "content_ms_p95": 41.168899999320274,
+  "candidate_recall40": 0.8795637170043085,
+  "rows": [
+    {
+      "case": 0,
+      "playlist_id": 3,
+      "observed": 12,
+      "held_out": 8,
+      "legacy": {
+        "ndcg10": 0.012527879181281846,
+        "recall10": 0.01875
+      },
+      "content": {
+        "ndcg10": 0.6346967214864419,
+        "recall10": 0.625
+      },
+      "content_ms": 41.168899999320274,
+      "candidate_recall40": 0.75,
+      "artist_only": {
+        "ndcg10": 0.4968460141484392,
+        "recall10": 0.375
+      }
+    },
+    {
+      "case": 1,
+      "playlist_id": 4,
+      "observed": 8,
+      "held_out": 6,
+      "legacy": {
+        "ndcg10": 0.05982471381889361,
+        "recall10": 0.06666666666666667
+      },
+      "content": {
+        "ndcg10": 0.870608685426993,
+        "recall10": 0.8333333333333334
+      },
+      "content_ms": 2.13889999940875,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 0.4935232796777482,
+        "recall10": 0.3333333333333333
+      }
+    },
+    {
+      "case": 2,
+      "playlist_id": 5,
+      "observed": 49,
+      "held_out": 33,
+      "legacy": {
+        "ndcg10": 0.027761223625035625,
+        "recall10": 0.010606060606060607
+      },
+      "content": {
+        "ndcg10": 1.0,
+        "recall10": 0.30303030303030304
+      },
+      "content_ms": 2.6152000009460608,
+      "candidate_recall40": 0.9393939393939394,
+      "artist_only": {
+        "ndcg10": 0.6906478832608418,
+        "recall10": 0.18181818181818182
+      }
+    },
+    {
+      "case": 3,
+      "playlist_id": 7,
+      "observed": 8,
+      "held_out": 6,
+      "legacy": {
+        "ndcg10": 0.01628596094143728,
+        "recall10": 0.024999999999999998
+      },
+      "content": {
+        "ndcg10": 0.9045395669105327,
+        "recall10": 1.0
+      },
+      "content_ms": 2.1082999992358964,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 0.10778915452451095,
+        "recall10": 0.16666666666666666
+      }
+    },
+    {
+      "case": 4,
+      "playlist_id": 8,
+      "observed": 8,
+      "held_out": 6,
+      "legacy": {
+        "ndcg10": 0.03918714760318871,
+        "recall10": 0.05833333333333333
+      },
+      "content": {
+        "ndcg10": 0.9571479481910377,
+        "recall10": 1.0
+      },
+      "content_ms": 2.189400000133901,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 1.0,
+        "recall10": 1.0
+      }
+    },
+    {
+      "case": 5,
+      "playlist_id": 9,
+      "observed": 25,
+      "held_out": 18,
+      "legacy": {
+        "ndcg10": 0.42300142679873465,
+        "recall10": 0.24722222222222223
+      },
+      "content": {
+        "ndcg10": 1.0,
+        "recall10": 0.5555555555555556
+      },
+      "content_ms": 2.140000000508735,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 0.6489315753318465,
+        "recall10": 0.2777777777777778
+      }
+    },
+    {
+      "case": 6,
+      "playlist_id": 10,
+      "observed": 28,
+      "held_out": 19,
+      "legacy": {
+        "ndcg10": 0.029825940681591768,
+        "recall10": 0.013157894736842105
+      },
+      "content": {
+        "ndcg10": 1.0,
+        "recall10": 0.5263157894736842
+      },
+      "content_ms": 2.098699998896336,
+      "candidate_recall40": 0.9473684210526315,
+      "artist_only": {
+        "ndcg10": 0.3430184917061137,
+        "recall10": 0.21052631578947367
+      }
+    },
+    {
+      "case": 7,
+      "playlist_id": 11,
+      "observed": 34,
+      "held_out": 23,
+      "legacy": {
+        "ndcg10": 0.049106397545528035,
+        "recall10": 0.021739130434782608
+      },
+      "content": {
+        "ndcg10": 0.6843830725976618,
+        "recall10": 0.2608695652173913
+      },
+      "content_ms": 2.202400000896887,
+      "candidate_recall40": 0.782608695652174,
+      "artist_only": {
+        "ndcg10": 0.8454256604216017,
+        "recall10": 0.34782608695652173
+      }
+    },
+    {
+      "case": 8,
+      "playlist_id": 13,
+      "observed": 39,
+      "held_out": 26,
+      "legacy": {
+        "ndcg10": 0.07914798858434051,
+        "recall10": 0.026923076923076925
+      },
+      "content": {
+        "ndcg10": 0.7859162856301583,
+        "recall10": 0.2692307692307692
+      },
+      "content_ms": 2.136600000085309,
+      "candidate_recall40": 0.6538461538461539,
+      "artist_only": {
+        "ndcg10": 1.0,
+        "recall10": 0.38461538461538464
+      }
+    },
+    {
+      "case": 9,
+      "playlist_id": 14,
+      "observed": 15,
+      "held_out": 11,
+      "legacy": {
+        "ndcg10": 0.28232515289457993,
+        "recall10": 0.25
+      },
+      "content": {
+        "ndcg10": 1.0,
+        "recall10": 0.9090909090909091
+      },
+      "content_ms": 2.2470000003522728,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 0.3589542101716347,
+        "recall10": 0.18181818181818182
+      }
+    },
+    {
+      "case": 10,
+      "playlist_id": 16,
+      "observed": 16,
+      "held_out": 11,
+      "legacy": {
+        "ndcg10": 0.04384443709775461,
+        "recall10": 0.03181818181818182
+      },
+      "content": {
+        "ndcg10": 0.933745776545611,
+        "recall10": 0.8181818181818182
+      },
+      "content_ms": 2.232200000435114,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 0.0,
+        "recall10": 0.0
+      }
+    },
+    {
+      "case": 11,
+      "playlist_id": 17,
+      "observed": 3,
+      "held_out": 3,
+      "legacy": {
+        "ndcg10": 0.0,
+        "recall10": 0.0
+      },
+      "content": {
+        "ndcg10": 0.9469024295259745,
+        "recall10": 1.0
+      },
+      "content_ms": 2.10970000080124,
+      "candidate_recall40": 1.0,
+      "artist_only": {
+        "ndcg10": 0.2960819109658652,
+        "recall10": 0.3333333333333333
+      }
+    },
+    {
+      "case": 12,
+      "playlist_id": 18,
+      "observed": 162,
+      "held_out": 108,
+      "legacy": {
+        "ndcg10": 0.46850084743169834,
+        "recall10": 0.04444444444444444
+      },
+      "content": {
+        "ndcg10": 1.0,
+        "recall10": 0.09259259259259259
+      },
+      "content_ms": 2.236599999378086,
+      "candidate_recall40": 0.3611111111111111,
+      "artist_only": {
+        "ndcg10": 1.0,
+        "recall10": 0.09259259259259259
+      }
+    }
+  ]
+}

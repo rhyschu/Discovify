@@ -30,7 +30,7 @@ Start each frontend in its own terminal with `pnpm dev` inside `client` or `admi
 - Regional genre variants are consolidated into language-independent genres such as Pop, Rock and Electronic.
 - Java packages, Maven artifact, frontend packages, cache namespaces, database and media bucket use Discovify naming.
 
-See [MIGRATION.md](MIGRATION.md) for database and media migration steps. Each component retains upstream license attribution in THIRD_PARTY_NOTICES.md.
+Each component retains upstream license attribution in THIRD_PARTY_NOTICES.md.
 
 ## Model providers
 
